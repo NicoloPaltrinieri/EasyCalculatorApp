@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="BaseAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mycalculator.HelloController">
+   <children>
+      <Button fx:id="SevenNumberButton" layoutX="115.0" layoutY="188.0" mnemonicParsing="false" onAction="#SevenButtonOnAction" text="7" />
+      <Button fx:id="EightNumberButton" layoutX="182.0" layoutY="188.0" mnemonicParsing="false" onAction="#EightButtonOnAction" text="8" />
+      <Button fx:id="NineNumberButton" layoutX="248.0" layoutY="188.0" mnemonicParsing="false" onAction="#NineButtonOnAction" text="9" />
+      <Button fx:id="FourNumberButton" layoutX="115.0" layoutY="227.0" mnemonicParsing="false" onAction="#FourButtonOnAction" text="4" />
+      <Button fx:id="FiveNumberButton" layoutX="182.0" layoutY="227.0" mnemonicParsing="false" onAction="#FiveButtonOnAction" text="5" />
+      <Button fx:id="SixNumberButton" layoutX="248.0" layoutY="227.0" mnemonicParsing="false" onAction="#SixButtonOnAction" text="6" />
+      <Button fx:id="OneNumberButton" layoutX="115.0" layoutY="262.0" mnemonicParsing="false" onAction="#OneButtonOnAction" text="1" />
+      <Button fx:id="TwoNumberButton" layoutX="182.0" layoutY="262.0" mnemonicParsing="false" onAction="#TwoNumberOnAction" text="2" />
+      <Button fx:id="ThreeNumberButton" layoutX="248.0" layoutY="262.0" mnemonicParsing="false" onAction="#ThreeButtonOnAction" text="3" />
+      <Button fx:id="ZeroNumberButton" layoutX="182.0" layoutY="300.0" mnemonicParsing="false" onAction="#zeroButtonOnAction" text="0" />
+      <Label fx:id="LabelOperand1" layoutX="25.0" layoutY="53.0" prefHeight="46.0" prefWidth="113.0" text="Label" />
+      <Label fx:id="LabelOperandResult" layoutX="380.0" layoutY="53.0" prefHeight="46.0" prefWidth="113.0" text="Label" />
+      <Label fx:id="LabelOperand2" layoutX="158.0" layoutY="53.0" prefHeight="46.0" prefWidth="113.0" text="Label" />
+      <Button fx:id="PlusButton" layoutX="385.0" layoutY="188.0" mnemonicParsing="false" onAction="#plusButtonOnAction" text="+" />
+      <Button fx:id="minusButton" layoutX="418.0" layoutY="188.0" mnemonicParsing="false" onAction="#minusButtonOnAction" text="-" />
+      <Button fx:id="moltiplicationButton" layoutX="450.0" layoutY="188.0" mnemonicParsing="false" onAction="#moltiplicationButtonOnAction" text="x" />
+      <Button fx:id="divisionButton" layoutX="483.0" layoutY="188.0" mnemonicParsing="false" onAction="#divisionButtonOnAction" text="/" />
+      <Button fx:id="EqualsButton" layoutX="309.0" layoutY="64.0" mnemonicParsing="false" onAction="#EqualsButtonOnAction" text="=" />
+      <Button fx:id="squareButton" layoutX="382.0" layoutY="240.0" mnemonicParsing="false" onAction="#squareButtonOnAction" text="^2" />
+   </children>
+</AnchorPane>

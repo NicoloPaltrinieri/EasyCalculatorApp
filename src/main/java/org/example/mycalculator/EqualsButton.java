@@ -15,9 +15,13 @@ public class EqualsButton {
 
     public void executeOperation() {
         Operation op = Calculator.operationMap.get(operationNumber);
-        if (op != null) {
-            result.setValue(op.calculate());
+        this.setOperationNumber(0);
+
+        if (op == null) {
+            throw new IllegalArgumentException("operationNumber non associato ad alcuna operazione");
         }
+
+        result.setValue(op.calculate());
     }
 
 }

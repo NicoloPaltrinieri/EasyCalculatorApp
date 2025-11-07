@@ -36,4 +36,10 @@ public class Calculator {
     public Operand getResult() {
         return result;
     }
+
+    public void resetAllOperands() {
+        operand1.setValidity(false);
+        operand2.setValidity(false);
+        result.setValidity(false);
+    }
 }

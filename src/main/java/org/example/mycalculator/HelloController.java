@@ -48,9 +48,7 @@ public class HelloController {
         try {
             equalsButton.executeOperation();
         } catch (Exception e) {
-            calculator.getOperand1().setValidity(false);
-            calculator.getOperand2().setValidity(false);
-            calculator.getResult().setValidity(false);
+            calculator.resetAllOperands();
         }
     }
 
@@ -60,47 +58,38 @@ public class HelloController {
 
     public void OneButtonOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(1, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
     public void TwoNumberOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(2, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
     public void ThreeButtonOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(3, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
     public void FourButtonOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(4, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
     public void FiveButtonOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(5, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
     public void SixButtonOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(6, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
     public void SevenButtonOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(7, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
     public void EightButtonOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(8, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
     public void NineButtonOnAction(ActionEvent actionEvent) {
         NumberButton.setPressedValue(9, calculator.getOperand1(), calculator.getOperand2());
-
     }
 
 
